@@ -3,6 +3,8 @@
 Simple printf.
 
 ## Supported specifiers
+- %d
+- %i
 - %c
 - %s
 - %%

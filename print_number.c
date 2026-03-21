@@ -7,6 +7,7 @@
  */
 int print_number(int n)
 {
+    long num = n;
     char c;
     int count = 0;
 

@@ -11,16 +11,16 @@ int print_number(int n)
     char c;
     int count = 0;
 
-    if (n < 0)
+    if (num < 0)
     {
         count += write(1, "-", 1);
         num = -num;
     }
 
-    if (n / 10)
+    if (num / 10)
         count += print_number(n / 10);
 
-    c = (n % 10) + '0';
+    c = (num % 10) + '0';
     count += write(1, &c, 1);
 
     return (count);

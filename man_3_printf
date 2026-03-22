@@ -1,1 +1,15 @@
-Hello, this is full of words!
+Main function Defs
+
+    int _printf(const char *format, ...)
+        Defining acceptable inputs
+    
+    Va_list args;
+
+    Int i = 0, count = 0;
+
+    while (format[i])
+        Handles Integers, Characters and strings
+            == '\0' is for blank return
+            == 'c' is for Characters
+            == 's' for strings
+            ==
